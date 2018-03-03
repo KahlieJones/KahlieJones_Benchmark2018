@@ -1,0 +1,169 @@
+
+
+
+*{
+  margin: 1;
+  padding: 1;
+}
+
+html {
+  background-color: white;
+}
+
+body {
+   font-family: Helvetica;
+    font-size: 100%;
+   min-width:729.6px;
+   width: auto !important;
+   width:729.6px;
+}
+
+header img {
+  padding-bottom: .25em;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+hr {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+header h1 {
+  padding-top: .5em;
+  padding-left: 20;
+}
+
+.container {
+ margin: 20px auto;
+ padding: 20px;
+ margin-bottom: 30em;
+}
+
+.column {
+    float: left;
+    position: relative;
+    width: 20%;
+}
+
+.column-offset-1 {
+    left: 20%;
+}
+.column-offset-2 {
+    left: 30%;
+}
+.column-inset-1 {
+    left: -20%;
+}
+
+main .rectangle {
+    height: 75px;
+    width: 200px;
+    background-color: #CACFD2;
+}
+
+main h2 {
+  color: #797D7F;
+}
+
+main button {
+  margin-top: .75em;
+  background-color: black;
+  color: white;
+  height:3em;
+  width: 7em;
+  white-space: nowrap;
+}
+
+body .contact-container {
+  position: absolute;
+  width: 100%
+}
+body .rectangle-bottom {
+  height: 550px;
+  width: 100%;
+  background-color: #CACFD2;
+}
+
+body h3 {
+  color:white;
+  font-size: 3em;
+  text-align: center;
+  vertical-align: top;
+  clear: both;
+  padding-top: 1em;
+}
+
+body div .form{
+  position:relative;
+  align: center;
+  text-align: center;
+}
+
+body div .email-text {
+  position: relative;
+  right: 177px;
+  color: white;
+}
+
+body div .subject-text {
+  margin-top: 10px;
+  position: relative;
+  right: 172px;
+  color: white;
+}
+
+body div .message-text {
+  margin-top: 10px;
+  position: relative;
+  right: 165px;
+  color: white;
+}
+
+body .email-input {
+  position: relative;
+  margin-top: -10px;
+  width: 400px;
+  height: 30px;
+}
+
+body .subject-input {
+  position: relative;
+  margin-top: -10px;
+  width: 400px;
+  height: 30px;
+}
+
+body .message-input {
+  position: relative;
+  margin-top: -10px;
+  width: 400px;
+  height: 200px;
+}
+
+body div .submit-button button {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  height:2em;
+  width: 6em;
+  position: relative;
+  right: 159px;
+}
+
+footer {
+  position:absolute;
+  bottom: -1450px;
+}
+footer h1 {
+  padding-top: .5em;
+  padding-left: 20;
+}
+
+footer h2 {
+  margin-top: 0;
+  padding-bottom: .5em;
