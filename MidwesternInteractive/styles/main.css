@@ -36,12 +36,15 @@ hr {
 header h1 {
   padding-top: .5em;
   padding-left: 20;
+  margin-left: 15%;
 }
 
 .container {
  margin: 20px auto;
  padding: 20px;
+ padding-bottom: 60px;
  margin-bottom: 30em;
+ margin-left: 13%;
 }
 
 .column {
@@ -84,7 +87,7 @@ body .contact-container {
   width: 100%
 }
 body .rectangle-bottom {
-  height: 550px;
+  height: 600px;
   width: 100%;
   background-color: #CACFD2;
 }
@@ -157,7 +160,7 @@ body div .submit-button button {
 
 footer {
   position:absolute;
-  bottom: -1450px;
+  bottom: -1750px;
 }
 footer h1 {
   padding-top: .5em;
@@ -167,3 +170,9 @@ footer h1 {
 footer h2 {
   margin-top: 0;
   padding-bottom: .5em;
+  white-space: nowrap;
+}
+
+footer li {
+  white-space: nowrap;
+}

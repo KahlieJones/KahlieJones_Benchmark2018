@@ -65,10 +65,6 @@
   <div class="container">
     <h2>Javascript Puzzle</h2>
 
-    <script type="text/javascript">
-             removeDuplicates();
-   </script>
-
     <h4>Object 1</h4>
     <ul>
       <ul id="object">
@@ -81,34 +77,27 @@
 
     <h4>Object 2</h4>
     <ul>
-      <ul id="myid">
+      <ul id="object">
         <li value="Matt-Johnson">Matt Johnson</li>
         <li value="Bart-Paden">Bart Paden</li>
         <li value="Jordan-Heigle">Jordan Heigle</li>
         <li value="Elke-Fallas">Elke Fallas</li>
       </ul>
     </ul>
-    <input id="bntSubmit" type="submit" value="submit" class="submitButton" />
+    <input id="bntSubmit" type="submit" value="submit" class="submitButton" onclick="removeDuplicates();"/>
 
-    <script type="text/javascript">
-    function removeDuplicates() {
-
-    var liText = '', liList = $('#object li'), listForRemove = [];
-
-    $(liList).each(function () {
-
-      var text = $(this).text();
-
-      if (liText.indexOf('|'+ text + '|') == -1)
-        liText += '|'+ text + '|';
-      else
-        listForRemove.push($(this));
-
-    });
-
-    $(listForRemove).each(function () { $(this).remove(); });
-    }
-    </script>
+      <script type="text/javascript">
+      function removeDuplicates() {
+        var liText = '', liList = $('#object li');
+        debugger;
+        $(liList).each(function () {
+          var text = $(this).text();
+          if (liText.indexOf(' '+ text + ',') == -1)
+            liText += ' '+ text + ',';
+        });
+        alert(liText);
+      }
+      </script>
   </div>
 </footer>
 
