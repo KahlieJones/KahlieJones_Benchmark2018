@@ -7,6 +7,7 @@ type 3 and 3w2
 ## Communication Skills
 
 To:          Robert Ross
+
 Subject:     HappyTreeArt “About Us” Page Content
 
 Mr. Ross,
