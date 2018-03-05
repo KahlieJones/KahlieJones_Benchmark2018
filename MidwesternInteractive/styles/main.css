@@ -160,10 +160,10 @@ body div .submit-button button {
 
 footer {
   position:absolute;
-  bottom: -1750px;
+  bottom: -1650px;
 }
 footer h1 {
-  padding-top: .5em;
+  padding-top: 0em;
   padding-left: 20;
 }
 
