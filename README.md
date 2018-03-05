@@ -6,8 +6,7 @@ type 3 and 3w2
 
 ## Communication Skills
 
-To:          Robert Ross
-
+To:          Robert Ross  
 Subject:     HappyTreeArt “About Us” Page Content
 
 Mr. Ross,
@@ -22,8 +21,8 @@ http://www.oneworldoneocean.com/pages/our_story
 
 Thank you,
 
-Kahlie Jones, Developer
-BlueShark Development Company
+Kahlie Jones, Developer  
+BlueShark Development Company  
 (555)-555-5555
 
 ## Code Test
