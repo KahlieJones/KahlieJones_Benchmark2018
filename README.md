@@ -1,4 +1,4 @@
-# kahlie_jones-03-2018
+## Kahlie Jones
 
 ## Personality Test
 
@@ -26,5 +26,5 @@ BlueShark Development Company
 
 ## Code Test
 
-Located in branch
+The main page is titled index.html. The CSS file is located in the styles folder. 
 

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Midwestern Interactive</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <header>
+    <img src="images/mwi-logo-horizontal.png" alt="Logo" height="60">
+    <hr>
+    <h1><u>HEADING ONE</u></h1>
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- middle -->
+      <div class="column column-one column-offset-2">
+        <div class="rectangle"></div>
+        <h2>Heading 2</h2>
+        <p>Just think about these things in your mind - then bring them into your world. We'll throw some old gray clouds in here just sneaking around and having fun. That's why I paint - because I can create the kind of world I want - and I can make this world as happy as I want it. </p>
+        <button type="button">Read More</button>
+      </div>
+      <!-- left -->
+      <div class="column column-two column-inset-1">
+        <div class="rectangle"></div>
+        <h2>Heading 2</h2>
+        <p>Talent is a pursued interest. That is to say, anything you practice you can do. Every time you practice, you learn more.You can't have light without dark. You can't know happiness unless you've known sorrow. There are no mistakes. You can fix anything that happens.</P>
+        <button type="button">Read More</button>
+      </div>
+      <!-- right -->
+      <div class="column column-three column-offset-1">
+        <div class="rectangle"></div>
+        <h2>Heading 2</h2>
+        <p>This is an example of what you can do with just a few things, a little imagination and a happy dream in your heart. Let's put some happy little bushes on the other side now. It's beautiful - and we haven't even done anything to it yet. Nothing wrong with washing your brush.</p>
+        <button type="button">Read More</button>
+      </div>
+    </div>
+  </main>
+  <div class="contact-container">
+    <div class="rectangle-bottom">
+      <h3>Contact</h3>
+      <div class="form">
+        <form action="/action_page.php">
+          <div class="email-text">Email: </div> <br>
+          <input class="email-input" type="text" name="Email" value=""><br>
+
+          <div class="subject-text">Subject: </div> <br>
+          <input class="subject-input" type="text" name="Subject" value=""><br>
+
+          <!-- <div class="message-text">Message: </div> <br>
+          <input class="message-input" type="text" name="Message" value=""><br> -->
+          <div class="message-text">Message: </div> <br>
+          <textarea rows="10" cols="100" class="message-input" maxlength="999" style="resize:none"></textarea>
+
+          <div class="submit-button"><button type="button">Submit</button></div>
+        </form>
+     </div>
+    </div>
+  </div>
+</body>
+
+<footer>
+  <h1><u>HEADING ONE</u></h1>
+  <div class="container">
+    <h2>Javascript Puzzle</h2>
+
+    <h4>Object 1</h4>
+    <ul>
+      <ul id="object">
+        <li value="Matt-Johnson">Matt Johnson</li>
+        <li value="Bart-Paden">Bart Paden</li>
+        <li value="Ryan-Doss">Ryan Doss</li>
+        <li value="Michael-Spangler">Michael Spangler</li>
+      </ul>
+    </ul>
+
+    <h4>Object 2</h4>
+    <ul>
+      <ul id="object">
+        <li value="Matt-Johnson">Matt Johnson</li>
+        <li value="Bart-Paden">Bart Paden</li>
+        <li value="Jordan-Heigle">Jordan Heigle</li>
+        <li value="Elke-Fallas">Elke Fallas</li>
+      </ul>
+    </ul>
+    <input id="bntSubmit" type="submit" value="submit" class="submitButton" onclick="removeDuplicates();"/>
+
+      <script type="text/javascript">
+      function removeDuplicates() {
+        var liText = '', liList = $('#object li');
+        $(liList).each(function () {
+          var text = $(this).text();
+          if (liText.indexOf(' '+ text + ',') == -1)
+            liText += ' '+ text + ',';
+        });
+        alert(liText);
+      }
+      </script>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</html>
